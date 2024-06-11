@@ -13,7 +13,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class excelUtilities {
 
 	public static void readExcel() throws InvalidFormatException, IOException {
-		String filePath = System.getProperty("user.dir") +"/src/test/java/testdata/SampleDoc.xlsx";
+		String filePath = System.getProperty("user.dir")+"/src/test/java/testdata/SampleDoc.xlsx";
 		XSSFWorkbook workbook = new XSSFWorkbook(new File(filePath));
 		XSSFSheet sheet = workbook.getSheetAt(0);
 		XSSFRow rows;
@@ -30,7 +30,7 @@ public class excelUtilities {
 		
 		excelUtilities.readExcel();
 
-		String filePath = System.getProperty("user.dir") + "/src/test/java/testdata/SampleDoc1.xlsx";
+		String filePath = System.getProperty("user.dir")+"/src/test/java/testdata/SampleDoc1.xlsx";
 		
 		XSSFWorkbook workbook = new XSSFWorkbook();
 		XSSFSheet sheet1 = workbook.createSheet("Students");

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test parallel="methods" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
     <classes>
-      <class name="tests.LoginTest">
+      <class name="tests.OpportunitiesTest">
         <methods>
+          <include name="opportunitesDropDownTC15"/>
           <include name="preCondtions"/>
           <include name="tearDownConfig"/>
           <include name="postCondtions"/>
           <include name="doConfiguration"/>
-          <include name="loginWithValidCredentials_TC002"/>
         </methods>
-      </class> <!-- tests.LoginTest -->
+      </class> <!-- tests.OpportunitiesTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -25,13 +25,18 @@ public class LoginPage extends BasePage{
 	public WebElement rememberMe;
 	
 	@FindBy(id = "error")
-	public WebElement errorMessage;
+	public WebElement errorMessage; 
 
 	@FindBy(xpath="//*[text()='Logout']")
 	public WebElement Logout;
 	
 	@FindBy(xpath="//a[@title='Home Tab']")
 	public WebElement HomeTab;
+	
+	@FindBy(id="forgot_password_link")
+	public WebElement ForgotPassword;
+	
+	
 
 	public void login(String userEmail, String passWord) {
 		logger.info("Siging in to application");
@@ -76,14 +81,14 @@ public class LoginPage extends BasePage{
 	
 		public String getLoginErrorMessage()
 		{
-			
 			if(errorMessage.isDisplayed())
 			{
 			return errorMessage.getText();
-		}else
-		{
+		    }
+			else
+		    {
 			return null;
-		}
+		    }
 		
 	 }
 	 public void clickLogoutButton()
@@ -96,5 +101,28 @@ public class LoginPage extends BasePage{
 			 System.out.println("Logout element not found");
 		 } 
 	 }
+	 public void clickForgotPassword()
+	 {
+		 if(ForgotPassword.isDisplayed())
+		 {
+			 ForgotPassword.click();
+		 }
+		 else
+		 {
+			 System.out.println("Forgot Password Link is not found");
+		 }
+     }
+	 public String getUsername()
+		{
+			return username.getText();
+		}
+	 public String getPassword()
+		{
+			return password.getText();
+		}
+		
+	 
+	 
+		 
+	 }
 
-}
