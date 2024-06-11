@@ -1,74 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-11T02:19:41Z" name="Default suite" finished-at="2024-05-11T02:20:21Z" duration-ms="39886">
+  <suite started-at="2024-06-07T16:06:02Z" name="Default suite" finished-at="2024-06-07T16:06:25Z" duration-ms="22376">
     <groups>
     </groups>
-    <test started-at="2024-05-11T02:19:41Z" name="Default test" finished-at="2024-05-11T02:20:21Z" duration-ms="39886">
+    <test started-at="2024-06-07T16:06:02Z" name="Default test" finished-at="2024-06-07T16:06:25Z" duration-ms="22376">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="doConfiguration()[pri:0, instance:tests.LoginTest@2b58f754]" started-at="2024-05-10T21:19:41Z" name="doConfiguration" finished-at="2024-05-10T21:19:41Z" duration-ms="458" status="PASS">
+        <test-method is-config="true" signature="doConfiguration()[pri:0, instance:tests.LoginTest@35fe2125]" started-at="2024-06-07T11:06:02Z" name="doConfiguration" finished-at="2024-06-07T11:06:02Z" duration-ms="522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doConfiguration -->
-        <test-method is-config="true" signature="preCondtions(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@2b58f754]" started-at="2024-05-10T21:19:41Z" name="preCondtions" finished-at="2024-05-10T21:19:49Z" duration-ms="7894" status="PASS">
+        <test-method is-config="true" signature="preCondtions(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@35fe2125]" started-at="2024-06-07T11:06:02Z" name="preCondtions" finished-at="2024-06-07T11:06:13Z" duration-ms="10200" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.LoginTest.checkRememberMeTC_003() throws java.io.IOException]]>
+                <![CDATA[public void tests.LoginTest.loginWithValidCredentials_TC02() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondtions -->
-        <test-method signature="checkRememberMeTC_003()[pri:0, instance:tests.LoginTest@2b58f754]" started-at="2024-05-10T21:19:49Z" name="checkRememberMeTC_003" finished-at="2024-05-10T21:19:59Z" duration-ms="10024" status="PASS">
+        <test-method signature="loginWithValidCredentials_TC02()[pri:0, instance:tests.LoginTest@35fe2125]" started-at="2024-06-07T11:06:13Z" name="loginWithValidCredentials_TC02" finished-at="2024-06-07T11:06:24Z" duration-ms="11687" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkRememberMeTC_003 -->
-        <test-method is-config="true" signature="postCondtions()[pri:0, instance:tests.LoginTest@2b58f754]" started-at="2024-05-10T21:19:59Z" name="postCondtions" finished-at="2024-05-10T21:19:59Z" duration-ms="307" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondtions -->
-        <test-method is-config="true" signature="preCondtions(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@2b58f754]" started-at="2024-05-10T21:19:59Z" name="preCondtions" finished-at="2024-05-10T21:20:04Z" duration-ms="4582" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.LoginTest.loginErrorMessageCheck_TC001() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondtions -->
-        <test-method signature="loginErrorMessageCheck_TC001()[pri:0, instance:tests.LoginTest@2b58f754]" started-at="2024-05-10T21:20:04Z" name="loginErrorMessageCheck_TC001" finished-at="2024-05-10T21:20:08Z" duration-ms="4475" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginErrorMessageCheck_TC001 -->
-        <test-method is-config="true" signature="postCondtions()[pri:0, instance:tests.LoginTest@2b58f754]" started-at="2024-05-10T21:20:08Z" name="postCondtions" finished-at="2024-05-10T21:20:09Z" duration-ms="375" status="PASS">
+        </test-method> <!-- loginWithValidCredentials_TC02 -->
+        <test-method is-config="true" signature="postCondtions()[pri:0, instance:tests.LoginTest@35fe2125]" started-at="2024-06-07T11:06:24Z" name="postCondtions" finished-at="2024-06-07T11:06:25Z" duration-ms="458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondtions -->
-        <test-method is-config="true" signature="preCondtions(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@2b58f754]" started-at="2024-05-10T21:20:09Z" name="preCondtions" finished-at="2024-05-10T21:20:12Z" duration-ms="3759" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.LoginTest.loginWithValidCredentials_TC002() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondtions -->
-        <test-method signature="loginWithValidCredentials_TC002()[pri:0, instance:tests.LoginTest@2b58f754]" started-at="2024-05-10T21:20:12Z" name="loginWithValidCredentials_TC002" finished-at="2024-05-10T21:20:21Z" duration-ms="8153" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithValidCredentials_TC002 -->
-        <test-method is-config="true" signature="postCondtions()[pri:0, instance:tests.LoginTest@2b58f754]" started-at="2024-05-10T21:20:21Z" name="postCondtions" finished-at="2024-05-10T21:20:21Z" duration-ms="276" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondtions -->
-        <test-method is-config="true" signature="tearDownConfig()[pri:0, instance:tests.LoginTest@2b58f754]" started-at="2024-05-10T21:20:21Z" name="tearDownConfig" finished-at="2024-05-10T21:20:22Z" duration-ms="831" status="PASS">
+        <test-method is-config="true" signature="tearDownConfig()[pri:0, instance:tests.LoginTest@35fe2125]" started-at="2024-06-07T11:06:25Z" name="tearDownConfig" finished-at="2024-06-07T11:06:26Z" duration-ms="908" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownConfig -->
